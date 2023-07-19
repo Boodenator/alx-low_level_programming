@@ -1,13 +1,13 @@
 #include "main.h"
 	/**
-	 * main - print _putchar
-	 * is written by me
+	 * main - Entry point
+	 * Description: prints _putchar using putchar prototype
 	 * Return: 0
 	 */
 
 
-	int main - Entry point
-{
+	int main(void)
+	{
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
