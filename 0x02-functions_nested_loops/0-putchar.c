@@ -1,7 +1,7 @@
-#include "main.h"
+#include "stdio.h"
 	/**
 	 * main - print _putchar
-	 * is written by mbah
+	 *'a program that prints _putchar'
 	 * Return: 0
 	 */
 
