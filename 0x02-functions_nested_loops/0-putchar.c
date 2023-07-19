@@ -1,21 +1,21 @@
-#include "stdio.h"
+#include "main.h"
 	/**
 	 * main - print _putchar
-	 *'a program that prints _putchar'
-	 * Return: Always 0
+	 * is written by me
+	 * Return: 0
 	 */
 
 
-	int main(void)
-	{
-	putchar('_');
-	putchar('p');
-	putchar('u');
-	putchar('t');
-	putchar('c');
-	putchar('h');
-	putchar('a');
-	putchar('r');
-	putchar('\n');
+	int main - Entry point
+{
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 	}
