@@ -6,12 +6,16 @@
  *
  * Return: the length of the string
  */
-int _strlen(char *s);
+int _strlen(char)
 {
-char *s;
-int len;
-s =  "My first strlen!"
-len = strlen(s);
-printf("%d\n", len);
-return (0);
+	int i;
+
+	i = 0;
+
+	while (s[i] != '\0')
+	{
+		i++;
+	}
+
+	return (i);
 }
