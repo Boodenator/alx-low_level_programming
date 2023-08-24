@@ -24,17 +24,14 @@ int _strlen(char *s)
  */
 size_t print_list(const list_t *h)
 {
-	size_t s = 0;
+	size_t j = 0;
 
 	while (h)
 	{
-		if (!h->str)
-			printf("[0] (nil)\n");
-		else
-			printf("[%u] %s\n", h->len, h->str);
+		printf("[%d] %s\n", _strlen(h->str), h->str ? h->str : "(nil)");
 		h = h->next;
-		s++;
+		j++;
 	}
 
-	return (s);
+	return (j);
 }
