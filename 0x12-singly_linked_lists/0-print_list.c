@@ -2,6 +2,7 @@
 #include "lists.h"
 
 /**
+ * main - Entry point
  * print_list - prints all the elements of a linked list
  * @h: pointer to the list_t list to print
  *
